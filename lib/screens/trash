@@ -1,0 +1,48 @@
+
+  void _onSignIn() async {
+    var data = await GoogleOneTapSignIn.startSignIn(
+      webClientId: '23eeffv',
+      );
+    if (data != null) {
+      /// Whatever you do with [SignInResult] data
+      if (kDebugMode) {
+        print("Id Token : ${data.idToken ?? "-"}");
+        print("ID : ${data.id ?? "-"}");
+    } }
+  }
+   // File? _image;
+
+
+  void _onSignInWithHandle() async {
+    var result = await GoogleOneTapSignIn.handleSignIn(
+      webClientId: '23eeffv',
+      );
+
+    if (result.isTemporaryBlock) {
+      // // TODO: Tell your users about this status
+      if (kDebugMode) {
+        print("Temporary BLOCK");
+      }
+    }
+
+    
+
+    if (result.isCanceled) {
+      // // TODO: Tell your users about this status
+      if (kDebugMode) {
+        print("Canceled");
+      }
+    }
+
+    if (result.isFail) {
+      // TODO: Tell your users about this status
+    }
+
+    if (result.isOk) {
+      // // TODO: Whatever you do with [SignInResult] data
+      if (kDebugMode) {
+        print("OK");
+        print("Id Token : ${result.data?.idToken ?? "-"}");
+        print("Email : ${result.data?.username ?? "-"}");
+    }}
+  }

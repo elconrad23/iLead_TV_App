@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "376716543748",
+    "project_id": "ilead-df65e",
+    "storage_bucket": "ilead-df65e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376716543748:android:a040075cd91b66fde87251",
+        "android_client_info": {
+          "package_name": "com.example.asdeployment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376716543748-hni38mpddsis9qeirb1luhn9fb7j3csd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5QushtlM3NEH73faNVB8wl0pyVDFXSjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376716543748-hni38mpddsis9qeirb1luhn9fb7j3csd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "376716543748-bvjkl4outs3i54hn89s12cs17jp4rfl8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.ileadTv"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376716543748:android:57fa70b39b00109ce87251",
+        "android_client_info": {
+          "package_name": "com.newrma1.ilead"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376716543748-hni38mpddsis9qeirb1luhn9fb7j3csd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5QushtlM3NEH73faNVB8wl0pyVDFXSjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376716543748-hni38mpddsis9qeirb1luhn9fb7j3csd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "376716543748-bvjkl4outs3i54hn89s12cs17jp4rfl8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.ileadTv"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376716543748:android:a6589011c9f75ba3e87251",
+        "android_client_info": {
+          "package_name": "com.rma.ilead"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376716543748-hni38mpddsis9qeirb1luhn9fb7j3csd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5QushtlM3NEH73faNVB8wl0pyVDFXSjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376716543748-hni38mpddsis9qeirb1luhn9fb7j3csd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "376716543748-bvjkl4outs3i54hn89s12cs17jp4rfl8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.ileadTv"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
